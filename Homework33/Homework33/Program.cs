@@ -22,7 +22,7 @@ while (isRightArray)
             numbers[i] = number;
         }
         Console.WriteLine("Повторяющиеся значения: ");
-        ArrayCheck.findDuplicates(numbers);
+        ArrayCheck.FindDuplicates(numbers);
     }
 
 }

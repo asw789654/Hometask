@@ -10,12 +10,12 @@
                 var input = Console.ReadLine();
                 if (IsInt(input))
                 {
-                    number = Convert.ToInt32(input);
+                    number = int.Parse(input);
                     break;
                 }
                 else
                 {
-                    Console.Write($"Неверный формат числа.\nВведите {numberName} снова: ");
+                    Console.Write($"Неверный формат числа.{Environment.NewLine}Введите {numberName} снова: ");
                 }
             }
             return number;

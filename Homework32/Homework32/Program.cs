@@ -36,6 +36,7 @@ while (isRightArray)
         }
         Console.WriteLine($"Максимальное значение в массиве: {maximum}");
         Console.WriteLine($"Минимальное значение в массиве: {minimum}");
+        Console.WriteLine($"Разность максимума и минимума: {maximum - minimum}");
     }
     else
     {

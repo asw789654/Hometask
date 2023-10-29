@@ -8,8 +8,6 @@ while (isRightArray)
 {
     Console.Write("Введите размерность массива: ");
     lenth = NumberCheck.AskForNumber("число");
-
-
     if (lenth > 2)
     {
         Console.WriteLine("Заполните массив");
